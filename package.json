@@ -1,0 +1,33 @@
+{
+  "name": "bahai-date-js",
+  "version": "0.0.1",
+  "description": "A JavaScript library for converting between dates in the Gregorian and Baha'i (Badi) calendars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "suncalc": "^1.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lessan/bahai-date-js.git"
+  },
+  "homepage": "https://github.com/lessan/bahai-date-js",
+  "keywords": [
+    "bahai",
+    "date",
+    "calendar",
+    "badi",
+    "gregorian",
+    "convert"
+  ],
+  "author": {
+    "name": "Lessan Vaezi",
+    "email": "lessan@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lessan/bahai-date-js/issues"
+  }
+}
