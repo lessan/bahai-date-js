@@ -17,6 +17,7 @@ var messages = {
 };
 
 function handleError(err) {
+  console.log(err.toString());
   browserSync.notify(err.toString(), TIMEOUT);
   this.emit('end');
 }
