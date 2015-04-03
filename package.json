@@ -2,12 +2,18 @@
   "name": "bahai-date-js",
   "version": "0.0.1",
   "description": "A JavaScript library for converting between dates in the Gregorian and Baha'i (Badi) calendars",
-  "main": "index.js",
+  "main": "bahaidate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "suncalc": "^1.6.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.11",
+    "gulp-mocha": "~2.0.1",
+    "gulp-istanbul": "~0.7.0",
+    "browser-sync": "~2.5.2"
   },
   "repository": {
     "type": "git",
